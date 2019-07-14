@@ -62,7 +62,12 @@ h1 {
     padding: 20px;
 }
 
-#nav-menu ul li {
+#nav-menu ul a {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+
+#nav-menu ul a li {
     list-style: none;
     /* color: rgb(17, 17, 17); */
     /* color: green; */
@@ -107,7 +112,7 @@ h1 {
     margin-bottom: 20px;
     border: 1px solid rgb(243, 243, 243);
     border-radius: 15px;
-    box-shadow: 4px 4px 2px 1px rgba(46, 46, 46, 0.2);
+    box-shadow: 4px 4px 2px 1px rgba(180, 180, 180, 0.2);
     background-color: #FFF;
 }
 
@@ -163,7 +168,7 @@ h1 {
     flex-direction: column;
     text-align: left;
     border: 1px solid rgb(240, 240, 240);
-    box-shadow: 4px 4px 2px 1px rgba(46, 46, 46, 0.2);
+    box-shadow: 4px 4px 2px 1px rgba(189, 189, 189, 0.2);
     /* padding: 10px 10px 0 10px; */
     /* padding: 2px; */
     /* background-color: rgb(253, 255, 143); */
@@ -180,7 +185,4 @@ h1 {
     padding-left: 2em;
 }
 
-.bold {
-    font-style: bold;
-}
 
