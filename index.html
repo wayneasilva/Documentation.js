@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Static Website Basic</title>
-        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100|Roboto:700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css" type="text/css">
     </head>
     <body id='body'>
@@ -41,7 +41,7 @@
                             </div>
                             <div class='code-segment-container'>
                                 <div class='example-container'>
-                                    <p>Example: </p>
+                                    <p class='bold'>Example: </p>
                                 </div>
                                 <div class='code-container'>
                                     <code>var a = 10</code>
@@ -58,7 +58,9 @@
                         </header>
                         <div class='topic-content-container'>
                             <div class='text-container'>
-                                <p>In JavaScript, most things are objects, from core JavaScript features like strings and arrays to the browser APIs built on top of JavaScript. You can even create your own objects to encapsulate related functions and variables into efficient packages, and act as handy data containers. The object-based nature of JavaScript is important to understand if you want to go further with your knowledge of the language, therefore we've provided this module to help you. Here we teach object theory and syntax in detail, then look at how to create your own objects.</p>
+                                <div class='text-segment-container'>
+                                    <p>In JavaScript, most things are objects, from core JavaScript features like strings and arrays to the browser APIs built on top of JavaScript. You can even create your own objects to encapsulate related functions and variables into efficient packages, and act as handy data containers. The object-based nature of JavaScript is important to understand if you want to go further with your knowledge of the language, therefore we've provided this module to help you. Here we teach object theory and syntax in detail, then look at how to create your own objects.</p>
+                                </div>
                             </div>
                             <div class='code-segment-container'>
                                 <div class='example-container'>
@@ -86,14 +88,16 @@
                         </header>
                         <div class='topic-content-container'>
                             <div class='text-container'>
-                                <p>A variable is a container for a value, like a number we might use in a sum, or a string that we might use as part of a sentence. But one special thing about variables is that their contained values can change.</p>
+                                <div class='text-segment-container'>
+                                    <p>The JavaScript Array object is a global object that is used in the construction of arrays; which are high-level, list-like objects.</p>
+                                </div>
                             </div>
                             <div class='code-segment-container'>
                                 <div class='example-container'>
                                     <p>Example: </p>
                                 </div>
                                 <div class='code-container'>
-                                    <code>var a = 10</code>
+                                    <code>let myArray = [0, 1, 2, 3, 4, 5]</code>
                                 </div>
                             </div>
                         </div>
@@ -105,14 +109,21 @@
                         </header>
                         <div class='topic-content-container'>
                             <div class='text-container'>
-                                <p>A variable is a container for a value, like a number we might use in a sum, or a string that we might use as part of a sentence. But one special thing about variables is that their contained values can change.</p>
+                                <div class='text-segment-container'>
+                                    <p>The Function constructor creates a new Function object. Calling the constructor directly can create functions dynamically, but suffers from security and similar (but far less significant) performance issues to eval. However, unlike eval, the Function constructor creates functions which execute in the global scope only.</p>
+                                </div>
                             </div>
                             <div class='code-segment-container'>
                                 <div class='example-container'>
                                     <p>Example: </p>
                                 </div>
                                 <div class='code-container'>
-                                    <code>var a = 10</code>
+                                    <code>function myFunction {
+                                        <br>
+                                        <span class='tab'>console.log('Called myFunction');</span>
+                                        <br>
+                                    }
+                                    </code>
                                 </div>
                             </div>
                         </div>
