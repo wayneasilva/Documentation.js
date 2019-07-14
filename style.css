@@ -140,7 +140,10 @@ h1 {
 }
 
 .code-container {
+    display: flex;
+    flex-direction: column;
     text-align: left;
+    padding: 10px 0 0 0;
     /* padding: 2px; */
     background-color: rgb(253, 255, 143);
 }
@@ -148,5 +151,10 @@ h1 {
 .code-container code {
     /* height: 100%; */
     background-color: lightgrey;
+    margin: 0 0 10px 0;
+}
+
+.tab {
+    padding-left: 2em;
 }
 
